@@ -1,0 +1,14 @@
+###
+POST http://127.0.0.1:8000/warehouses
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "NWL 2",
+  "google_sheet_url": "https://docs.google.com/sheet123",
+  "telegram_chat_id": "-100123456"
+}
+
+###
+GET http://127.0.0.1:8000/warehouses
+Accept: application/json
